@@ -33,16 +33,52 @@
         <!-- Main Content -->
         <main>
             <!-- Contact Section -->
+            
             <section id="contact">
+                <!-- Embedded CSS Style for the Form -->
+                <style>
+                    /* CSS for the Textarea */
+                    textarea {
+                        width: 25%;
+                        padding: 10px;
+                        border: 1px solid;
+                        border-radius: 5px;
+                        vertical-align: top; /* Aligns text to the top */
+                    }
+
+                    /* CSS for the labels */
+                    label {
+                        font-weight: bold;
+                    }
+                    /* Exclude labels for radio buttons */
+                    input[type="radio"] + label {
+                        font-weight: normal;
+                    }
+                </style>
+
+                <!-- Form Section -->
                 <h2>Contact</h2>
-                <p>Feel free to reach out to me with any questions or opportunities!</p>
+                <p>Feel free to reach out to me with any questions or opportunities!</p> <br>
                 <form>
+                    <!-- Form for Contact -->
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" required> <br><br>
+
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required> <br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required> <br><br>
+
+                    <label>Preferred Contact Method:</label> <br>
+                    <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                    <label for="contact-email">Email</label> <br>
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone" >
+                    <label for="contact-phone">Phone</label> <br><br>
+
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <textarea id="message" name="message" required></textarea> <br><br>
+                    
                     <input type="submit" value="Submit">
                 </form>
             </section>
