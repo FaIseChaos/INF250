@@ -102,6 +102,17 @@ th, td {
     text-align: left;
 }
 
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.table-container table {
+    width: 100%; 
+    min-width: 900px; 
+    border-collapse: collapse;
+}
+
 /* Footer Styling */
 footer {
     text-align: center;
@@ -137,6 +148,14 @@ footer {
 
     .navbar li {
         margin: 5px 0;
+    }
+
+    .table-container {
+        padding: 0 10px; 
+    }
+
+    table {
+        width: auto; 
     }
 }
 

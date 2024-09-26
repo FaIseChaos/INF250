@@ -19,12 +19,12 @@ https://docs.google.com/document/d/1sO6-0y_XAQqbJsyIFxeWLspw2B2wPTsT59uq5-DIeDw/
 ### Final Project: Overall Technical Requirements:
 - [x] Two appropriate media queries for tablet and phone sized viewports
 - [x] Appropriate meta viewport html tag
-- [1/2] Flexible images (2 minimum)
+- [2/2] Flexible images (2 minimum)
 - [x] Data table on any page (at least 4 x 4 – make sure the content is appropriate for a data table.)
 - [x] Links - one external link, and one Relative Hyperlink
 - [5/5] Form with a minimum of five different input elements (text, textarea, radio, checkbox, ect.)
 - [x] On the page with the form, include an embedded style sheet with the form styles 
-- [] A video created by you, uploaded to YouTube, and then embedded in your site
+- [x] A video created by you, uploaded to YouTube, and then embedded in your site
 
 ### Final Project: Brainstorming
  - Cybersecurity Portfolio
